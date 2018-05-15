@@ -230,8 +230,9 @@
 }
 
 body {
-    font: 400 14px/1.45 Poppins;
-    color: #505050
+    font: 400 16px/1.45 Poppins;
+    color: #505050;
+    background-color: #EFFEEB;
 }
 
 .rte a,
@@ -418,7 +419,9 @@ table td:after {
 }
 
 .site-nav__dropdown {
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.09)
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.09);
+    background-color: #8CB62C;
+    min-width: 172%;
 }
 
 .is-moved-by-drawer.is-transitioning {
@@ -455,7 +458,8 @@ table td:after {
 }
 
 .index-sections .html-section {
-    margin-top: 0
+    margin-top: 0;
+    background-color: #EFFEEB;
 }
 
 .pagination .page.current {
@@ -592,7 +596,9 @@ table td:after {
 }
 
 .grid-view-item .grid__image img {
-    margin: 0
+    margin: 0;
+        width: 320px;
+        
 }
 
 .grid-view-item .rating-star .spr-badge-caption {
@@ -960,7 +966,7 @@ table td:after {
 
 header.section-header.wrapper-breadcrumb {
     border: none;
-    background: #f7f7f7;
+    background: #8CB62C;
     padding: 15px 0;
     margin-bottom: 20px
 }
@@ -1379,13 +1385,13 @@ header.section-header.wrapper-breadcrumb .rating {
 }
 
 .menu-bar ul.site-nav .site-nav__item .site-nav__dropdown {
-    min-width: 220px;
-    padding: 30px 10px
+    /*min-width: 300px;*/
+    padding: 5px 5px
 }
 
 .menu-bar ul.site-nav .site-nav__item .site-nav__dropdown li {
-    padding-left: 20px;
-    padding-right: 20px
+    /*padding-left: 20px;*/
+    /*padding-right: 20px*/
 }
 
 .menu-bar ul.site-nav .site-nav__item .site-nav__dropdown li a {
@@ -2000,7 +2006,7 @@ header.section-header.wrapper-breadcrumb .rating {
 }
 
 #html-section-header .header-section.header-style-6 .logo {
-    padding: 8px 0 0
+    padding: 0px 0 0
 }
 
 @media only screen and (max-width: 768px) {
@@ -2010,7 +2016,7 @@ header.section-header.wrapper-breadcrumb .rating {
 }
 
 #html-section-header .header-section.header-style-6 .site-header {
-    padding: 30px 0
+    padding: 10px 0
 }
 
 @media only screen and (max-width: 768px) {
@@ -2414,7 +2420,8 @@ header.section-header.wrapper-breadcrumb .rating {
 }
 
 #html-section-header .navigation-style-6 .menu-bar {
-    box-shadow: none
+    box-shadow: none;
+    background: #8CB62C;
 }
 
 #html-section-header .navigation-style-6 ul.site-nav {
@@ -3138,11 +3145,13 @@ footer.site-footer.footer4 .copyright_wrapper {
 .home-product-sidebar-wrapper .block_heading.style_default {
     color: #fff;
     margin-bottom: 20px;
+     margin-top: 20px;
     padding-right: 20px;
-    border-bottom: 1px solid #d9d9d9;
+/*    border-bottom: 1px solid #d9d9d9;
     border-top: 1px solid #0eb1f2;
     border-left: 3px double #d9d9d9;
-    border-right: 1px solid #d9d9d9
+    border-right: 1px solid #d9d9d9;*/
+    height: 50px;
 }
 
 .home-product-sidebar-wrapper .block_heading.style_default .area-header {
@@ -3170,13 +3179,13 @@ footer.site-footer.footer4 .copyright_wrapper {
 }
 
 .home-product-sidebar-wrapper .block_heading.style_default .area-tags {
-    width: auto;
-    float: right;
+    
+    float: none;
     padding-top: 15px
 }
 
 .home-product-sidebar-wrapper .block_heading.style_default .area-tags .grid__link {
-    text-align: right
+    text-align: left
 }
 
 .home-product-sidebar-wrapper .block_heading.style_default .area-tags .grid__link li {
@@ -3193,7 +3202,8 @@ footer.site-footer.footer4 .copyright_wrapper {
 }
 
 .home-product-sidebar-wrapper .block_heading.style_default .area-tags .grid__link li a {
-    color: #8b8b8b
+   
+    font-size: 17px;
 }
 
 .home-product-sidebar-wrapper .block_heading.style_default .area-tags .grid__link li a:hover,
@@ -6307,7 +6317,9 @@ article.article .list-comments li.comment time.comment-date {
 }
 
 #PageContainer {
-    overflow: visible
+    overflow: visible;
+    margin-top: 17px;
+   
 }
 
 @media only screen and (max-width: 767px) {
@@ -6781,7 +6793,7 @@ table.wishlist-items tr td form i {
     color:#0eb1f2;
   }
   #html-section-header .navigation-style-6{
-    background:#ffffff;
+    background:#EFFEEB;
   }
   #html-section-header .navigation-style-6 ul.site-nav li.site-nav__item>a{
     color:#151515;

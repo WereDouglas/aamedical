@@ -2144,14 +2144,14 @@ a:hover {
     color: #000
 }
 .site-nav {
-    white-space: nowrap
+    /*white-space: nowrap*/
 }
 .no-js .site-nav,
 .site-nav.site-nav--init {
     opacity: 1
 }
 .site-nav__item {
-    white-space: normal
+    /*white-space: normal*/
 }
 .site-nav__link {
     -webkit-transition: color 0.2s, opacity 0.1s;
